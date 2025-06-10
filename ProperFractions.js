@@ -1,5 +1,5 @@
 
-
+// a code wars Katz using eulers formula 
 
 function properFractions(n){
   //your code here
