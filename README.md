@@ -37,7 +37,8 @@ Be ready to handle big numbers.
 Edit: to be extra precise, the term should be "reduced" fractions, thanks to girianshiido for pointing this out and sorry for the use of an improper word :)
 
 
-#3 From wikipedia https://en.wikipedia.org/wiki/Partition_(number_theory)
+#3 partition
+From wikipedia https://en.wikipedia.org/wiki/Partition_(number_theory)
 
 In number theory and combinatorics, a partition of a positive integer n, also called an integer partition, is a way of writing n as a sum of positive integers. Two sums that differ only in the order of their summands are considered the same partition.
 
@@ -81,7 +82,7 @@ Hints:
 Try to optimize your program to avoid timing out.
 
 
-#4 
+#4 linear problem
 Consider a sequence u where u is defined as follows:
 
 The number u(0) = 1 is the first one in u.
@@ -113,7 +114,7 @@ Write a function cakes(), which takes the recipe (object) and the available ingr
 
 #6
 
-
+sum of odd numbers
 
 Given the triangle of consecutive odd numbers:
 
