@@ -128,3 +128,19 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 1 -->  1
 2 --> 3 + 5 = 8
+
+#7. 
+You get an array of numbers, return the sum of all of the positives ones.
+
+Example
+[1, -4, 7, 12] => 
+1
++
+7
++
+12
+=
+20
+1+7+12=20
+Note
+If there is nothing to sum, the sum is default to 0.
