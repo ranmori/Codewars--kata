@@ -144,3 +144,7 @@ Example
 1+7+12=20
 Note
 If there is nothing to sum, the sum is default to 0.
+
+
+8. filter positive integers
+   In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
