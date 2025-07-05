@@ -1,7 +1,17 @@
 
 
-// Given two arrays of strings a1 and a2 return a sorted array r in lexicographical order of the strings of a1 which are substrings of strings of a2.
+// Implement the function which takes an array containing the names of people that like an item
+function likes(names) {
+  const count = names.length;
 
-// Example 1 a1 = ["arp", "live", "strong"] a2 = ["lively", "alive",
- "harp", "sharp", "armstrong"]returns ["arp", "live",]
-// Example 2:a1 = ["tarp", "mice", "bull"]a2 = ["lively", "alive", "harp", "sharp", "armstrong"]returns []
+  if (count === 0) {
+    return 'no one likes this';
+  } if (count === 1) {
+    return `${names[0]} likes this`;
+  } if (count === 2) {
+    return `${names[0]} and ${names[1]} like this`;
+  } if (count === 3) {
+    return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+  }
+  return `${names[0]}, ${names[1]} and ${count - 2} others like this`;
+}
